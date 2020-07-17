@@ -38,3 +38,27 @@ grep ">>" pmex-miranda-3primeoutput-MFdesign-DE-en20.txt > pmex-miranda-3primeou
 Turn pmex-miranda-3primeoutput-MFdesign-DE-hitsOnly.txt into pmex-miranda-3prime-predictedTargets.csv for ease of use in R
 
 See Pmex-miRNAs.md for R analyses
+
+## Supplementary files for manuscript 
+ - AdditionalFile1_pme_hairpins.fa
+ - AdditionalFile2_pme_matures.fa
+ - TableS2-Pmex miRNA Annotation.xlsx
+ - TableS3-miRNA Expression.csv
+ - TableS4-mRNA Expression.csv
+ - TableS5-GO-Enrichment.xlsx
+
+## Hand-edited gff for mitochondrial annotation compatibility with stringtie
+ - GCF_001443325.1_P_mexicana-1.0_genomic_with_mito_sequence-edited.gff.gz
+
+
+## mRNA analysis
+ - Pmex-Taco-DGE-FINAL.Rmd
+ - PmexGeneNameMatching.csv
+ - PmexRNA_samples_2010.xlsx
+ - gene_count_matrix-2019-10-01_no_STRG.csv
+ 
+## miRNA analysis
+ - Pmex-miRNAs.md
+ - GenesWithAnnontated3UTR.csv
+ - pmex-miranda-3prime-predictedTargets.csv
+ - split.pl
