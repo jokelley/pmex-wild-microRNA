@@ -35,3 +35,5 @@ grep ">>" pmex-miranda-3primeoutput-MFdesign-DE-en20.txt > pmex-miranda-3primeou
 
 ```
 Turn pmex-miranda-3primeoutput-MFdesign-DE-hitsOnly.txt into pmex-miranda-3prime-predictedTargets.csv for ease of use in R
+
+See Pmex-miRNAs.md for R analyses
