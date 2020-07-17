@@ -28,8 +28,9 @@ perl script.pl 3primeUTR.fa > 3primeUTR-sequencesOnly.fa
 ```
 
 Extract all DE miRNAs from fasta of all mature miRNAs
+DE-microRNA-p01.txt is from the R code or TableS3-miRNA Expression.csv (see Pmex-miRNAs.md)
 ```
-seqtk subseq pmex-microRNAs.fa DE-microRNA-p01.txt > DE-microRNA-p01.fa
+seqtk subseq AdditionalFile2_pme_matures.fa DE-microRNA-p01.txt > DE-microRNA-p01.fa
 miranda DE-microRNA-p01.fa 3primeUTR-sequencesOnly.fa -out pmex-miranda-3primeoutput-MFdesign-DE-en20.txt -en -20
 grep ">>" pmex-miranda-3primeoutput-MFdesign-DE-en20.txt > pmex-miranda-3primeoutput-MFdesign-DE-hitsOnly.txt
 
